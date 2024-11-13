@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 12px 0px;
+}
+
+div{
+    background-color: #eaeaea;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+div span{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: monospace;
+}
