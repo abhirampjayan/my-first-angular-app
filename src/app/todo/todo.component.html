@@ -1,6 +1,7 @@
 @for (item of todos(); track item.id) {
-<div>
-  <h3>{{ item.title }}</h3>
-  <p>{{ item.completed }}</p>
-</div>
-}
+  <div>
+    <input type="checkbox" name="" id="" [checked]="item.completed">
+    <span>{{ item.title }}</span>
+  </div>
+  }
+  

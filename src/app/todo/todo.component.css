@@ -1,4 +1,10 @@
 div {
   border: 1px solid #333;
   padding: 8px;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+span{
+  text-transform: capitalize;
 }
